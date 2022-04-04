@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+        <% navBarItems.forEach(navB=>{%>
+            <li>
+                <a href="<%-navB.url -%>">
+                    <%- navB.name -%>
+                </a>
+            </li>
+            <%})%>
+    </ul>
+</nav>
